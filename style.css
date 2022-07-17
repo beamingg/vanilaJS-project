@@ -1,0 +1,79 @@
+.hidden {
+    display: none;
+}
+
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 30%;
+}
+
+body {
+    text-align: center;
+}
+
+#clock {
+    text-align: left;
+}
+
+#weather {
+    text-align: left;
+}
+
+#greeting {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#login-form {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+    background: transparent;
+    text-align: center;
+}
+
+#input {
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+
+input::placeholder {
+    color: black;
+    text-align: center;
+    font-size:large;
+  }
+
+input:focus {
+    outline: none;
+}
+
+#todo-list {
+    margin-top: 50px;
+}
+
+#quote {
+    margin-top: 200px;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+}
